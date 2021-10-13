@@ -1,9 +1,36 @@
-.container {
+body {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.square {
-    flex: 1;
+#eas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    background-color: white;
+}
+
+button {
+    padding: 5px 15px;
 }
